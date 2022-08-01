@@ -9,13 +9,16 @@ function home() {
         <div>
           <img src="/images/pho.jpg" alt="PHO Noodle" />
         </div>
-        Photo by <a href="AUTHOR_LINK">Markus Winkler</a> on{" "}
-        <a href="UNSPLASH_LINK">Unsplash</a>
+        <div>
+          Photo by <a href="AUTHOR_LINK">Markus Winkler</a> on{" "}
+          <a href="UNSPLASH_LINK">Unsplash</a>
+        </div>
         <br></br>
-        <br></br>
-        <a href="/places">
-          <button className="btn-primary">Places Page</button>
-        </a>
+        <div>
+          <a href="/places">
+            <button className="btn-primary">Places Page</button>
+          </a>
+        </div>
       </main>
     </Def>
   );
